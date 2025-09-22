@@ -45,6 +45,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Play(modifier: Modifier = Modifier) {
 
+
     //var lucky = (1..100).random()
     var lucky by remember {
         mutableStateOf((1..100).random())
